@@ -459,10 +459,6 @@ function showInstructions() {
             <button id="hide-helper-instructions-close" class="hide-helper-instructions-close-btn">×</button>
         </div>
         <div class="hide-helper-instructions-content">
-            <h1>隐藏助手 - 使用说明</h1>
-
-            <p>欢迎使用隐藏助手插件！本插件旨在帮助您管理聊天记录的可见性，保持界面整洁，并控制发送给 AI 的上下文长度。</p>
-
             <h2>核心功能：设置保留消息数量</h2>
             <p>
                 要设置您希望保留的最新消息数量，请在 <strong class="button-like">[保存设置]</strong> 按钮右侧的输入框中输入一个数字，我们称之为"X"。
