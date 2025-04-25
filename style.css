@@ -150,7 +150,7 @@
 /* 使用说明弹窗 */
 .hide-helper-instructions-popup {
     position: fixed;
-    top: 10%;
+    top: 20%;
     left: 50%;
     transform: translateX(-50%);
     width: 80%;
