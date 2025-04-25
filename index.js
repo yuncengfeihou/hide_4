@@ -524,25 +524,15 @@ function showInstructions() {
     // 获取弹窗元素
     const $popup = $('#hide-helper-instructions-popup');
     
-    // 显示弹窗
     $popup.css({
-        'display': 'block', 
-        'visibility': 'hidden', 
+        'display': 'flex', // 使用flex布局
+        'visibility': 'visible',
         'position': 'fixed',
-        'left': '50%', 
-        'transform': 'translateX(-50%)'
+        'left': '50%',
+        'top': '10%', // 固定在顶部10%位置
+        'transform': 'translateX(-50%)',
+        'max-height': '80vh'
     });
-    
-    // 计算位置并显示
-    setTimeout(() => {
-        const popupHeight = $popup.outerHeight();
-        const windowHeight = $(window).height();
-        const topPosition = Math.max(10, Math.min((windowHeight - popupHeight) / 2, windowHeight - popupHeight - 50));
-        $popup.css({ 
-            'top': topPosition + 'px', 
-            'visibility': 'visible' 
-        });
-    }, 0);
     
     // 添加关闭按钮事件
     $('#hide-helper-instructions-close').on('click', function() {
