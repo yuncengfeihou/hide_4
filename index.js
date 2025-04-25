@@ -540,7 +540,7 @@ function showInstructions() {
         'visibility': 'visible',
         'position': 'fixed',
         'left': '50%',
-        'top': '10%', // 固定在顶部10%位置
+        'top': '20%', // 固定在顶部10%位置
         'transform': 'translateX(-50%)',
         'max-height': '80vh'
     });
